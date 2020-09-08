@@ -1,0 +1,41 @@
+body {
+    background-color: mintcream;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: slategray;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.navbar > div {
+    background-color: mintcream;
+    width: 100px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+}
+h1 {
+    display: flex;
+    background-color: slategray;
+    height: 350px;
+    border-radius: 4px;
+}
+h2 {
+    display: flex;
+    background-color: slategray;
+}
+h3 {
+    display: flex;
+    background-color: slategray;
+}
+h4 {
+    display: flex;
+    background-color: slategray;
+}
