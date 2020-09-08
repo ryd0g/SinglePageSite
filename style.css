@@ -40,22 +40,82 @@ body {
 a {
     color: slategray;
 }
-.h1 {
+.home h1 {
     display: flex;
     background-color: slategray;
+    color: mintcream;
     height: 350px;
     border-radius: 4px;
-    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
-h2 {
+.home {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.about h2 {
     display: flex;
     background-color: slategray;
+    color: mintcream;
+    height: 100px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 2em;
 }
-h3 {
+.about p {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: slategray;
+}
+.services h3 {
     display: flex;
     background-color: slategray;
+    color: mintcream;
+    height: 100px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 2em;
 }
-h4 {
+.services p {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: slategray;
+}
+.services ul {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: slategray;
+    height: 1.5;
+}
+.contact h4 {
     display: flex;
     background-color: slategray;
+    color: mintcream;
+    height: 100px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 2em;
+}
+.contact p {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: slategray;
+}
+.contact label {
+    font-family: Helvetica;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: slategray;
 }
