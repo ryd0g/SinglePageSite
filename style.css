@@ -11,21 +11,41 @@ body {
     justify-content: space-evenly;
     border-radius: 4px;
 }
-.navbar > div {
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: mintcream;
-    width: 100px;
-    height: 50px;
-    margin: 4px;
-    border-radius: 4px;
-    justify-content: center;
+    position: sticky;
+  }
+  
+.navbar li {
+    float: left;
+    border-right: 1px solid slategray;
+    font-family: Helvetica;
+  }
+  
+.navbar li a {
+    display: block;
+    color: slategray;
     text-align: center;
-    font-size: 1em;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: powderblue;
 }
-h1 {
+a {
+    color: slategray;
+}
+.h1 {
     display: flex;
     background-color: slategray;
     height: 350px;
     border-radius: 4px;
+    
 }
 h2 {
     display: flex;
