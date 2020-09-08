@@ -42,7 +42,7 @@ a {
 }
 .home h1 {
     display: flex;
-    background-color: slategray;
+    background-image: url(background2.jpeg);
     color: mintcream;
     height: 350px;
     border-radius: 4px;
