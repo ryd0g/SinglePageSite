@@ -28,7 +28,7 @@ body {
   }
   
 .navbar li a:hover {
-    background-color: powderblue;
+    background-color: rgb(181, 182, 182);
 }
 a {
     color: slategray;
