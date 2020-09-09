@@ -1,5 +1,5 @@
 body {
-    background-color: mintcream;
+    background-color: whitesmoke;
 }
 .navbar ul {
     list-style-type: none;
@@ -13,9 +13,9 @@ body {
   }
   
 .navbar li {
+    float: left;
     border-right: 1px solid mintcream;
     font-family: Helvetica;
-    display: inline;
   }
   
 .navbar li a {
@@ -50,7 +50,7 @@ a {
 }
 .about h2 {
     display: flex;
-    background-color: slategray;
+    background-image: url(background2.jpeg);
     color: mintcream;
     height: 100px;
     border-radius: 4px;
@@ -69,7 +69,7 @@ a {
 }
 .services h3 {
     display: flex;
-    background-color: slategray;
+    background-image: url(background2.jpeg);
     color: mintcream;
     height: 100px;
     border-radius: 4px;
@@ -96,7 +96,7 @@ a {
 }
 .contact h4 {
     display: flex;
-    background-color: slategray;
+    background-image: url(background2.jpeg);
     color: mintcream;
     height: 100px;
     border-radius: 4px;
