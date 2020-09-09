@@ -1,34 +1,27 @@
 body {
     background-color: mintcream;
 }
-.navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: slategray;
-    height: 80px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 4px;
-}
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: mintcream;
-    position: sticky;
+    background-color: slategray;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
 .navbar li {
     float: left;
-    border-right: 1px solid slategray;
+    border-right: 1px solid mintcream;
     font-family: Helvetica;
+    display: inline;
   }
   
 .navbar li a {
     display: block;
-    color: slategray;
+    color: mintcream;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,6 +42,7 @@ a {
     align-items: center;
     text-align: center;
     justify-content: center;
+    text-decoration: underline;
 }
 .home {
     font-family: Helvetica;
@@ -66,6 +60,7 @@ a {
     font-family: Helvetica;
     font-size: 2em;
     text-align: center;
+    text-decoration: underline;
 }
 .about p {
     font-family: Helvetica;
@@ -84,6 +79,7 @@ a {
     font-family: Helvetica;
     font-size: 2em;
     text-align: center;
+    text-decoration: underline;
 }
 .services p {
     font-family: Helvetica;
@@ -110,6 +106,7 @@ a {
     font-family: Helvetica;
     font-size: 2em;
     text-align: center;
+    text-decoration: underline;
 }
 .contact p {
     font-family: Helvetica;
