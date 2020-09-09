@@ -134,6 +134,7 @@ img {
     width: 30%;
     border-radius: 5px;
     display: inline-block;
+    justify-content: center;
 } 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -154,4 +155,44 @@ h5 {
     font-size: 2em;
     text-align: center;
     color: slategray;
+}
+.button {
+    display: flex;
+    position: center; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 18px;
+    border: 1px solid slategray;
+    border-radius: 8px;
+    background: rgb(214, 214, 214);
+    background: -webkit-gradient(linear, left top, left bottom, from(mintcream), to(rgb(237, 255, 246)));
+    background: -moz-linear-gradient(top, #a8a8a8, #cecece);
+    background: linear-gradient(to bottom, #a8a8a8, #cecece);
+    -webkit-box-shadow: rgb(170, 170, 170) 0px 0px 40px 0px;
+    -moz-box-shadow: rgb(247, 247, 247) 0px 0px 40px 0px;
+    box-shadow: rgb(226, 226, 226) 0px 0px 40px 0px;
+    text-shadow: rgb(231, 231, 231) 1px 1px 1px;
+    font: normal normal normal 20px arial;
+    color: slategray;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: rgb(130, 138, 146);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #a8a8a8, #cecece);
+    background: linear-gradient(to bottom, #a8a8a8, #cecece);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: slategray;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #a8a8a8, #cecece);
+    background: linear-gradient(to bottom, #a8a8a8, #cecece);
 }
