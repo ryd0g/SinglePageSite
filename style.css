@@ -254,6 +254,7 @@ figure {
 }
 .moreinfo p {
     font-family: Helvetica;
+    height: 1.0;
     font-size: 1.5em;
     font-weight: lighter;
     color: slategray;
