@@ -134,7 +134,7 @@ img {
 }
 .cardbox {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -169,7 +169,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0 20px 30px 95px;
     width: 200px;
     text-align: center;
     vertical-align: middle;
