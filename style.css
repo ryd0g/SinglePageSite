@@ -163,6 +163,7 @@ h5 {
     font-family: Helvetica;
     font-size: 2em;
     text-align: center;
+    text-decoration: underline;
     color: slategray;
 }
 .button {
