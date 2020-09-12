@@ -72,6 +72,10 @@ a {
     font-weight: lighter;
     color: slategray;
 }
+.about img {
+    float: left;
+    padding: 10px 10px 5px 10px;
+}
 .services h3 {
     display: flex;
     background-image: url(background2.jpeg);
