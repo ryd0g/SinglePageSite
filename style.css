@@ -209,6 +209,7 @@ h5 {
 }
 .submit {
     width: 100px;
+    margin: 0 0 5px 18px;
     padding: 12px 18px;
     border: 1px solid slategray;
     border-radius: 8px;
@@ -269,4 +270,12 @@ figure {
     font-weight: lighter;
     color: slategray;
     text-align: center;
+}
+input {
+    font-size: 110%;
+    font-family: Helvetica;
+    font-weight: lighter;
+    background-color: whitesmoke;
+    color: slategray;
+    padding: 5px;
 }
