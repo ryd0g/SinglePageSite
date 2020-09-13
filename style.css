@@ -14,13 +14,13 @@ body {
   
 .navbar li {
     float: left;
-    border-right: 1px solid mintcream;
+    border-right: 1px solid whitesmoke;
     font-family: Helvetica;
   }
   
 .navbar li a {
     display: block;
-    color: mintcream;
+    color:whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,7 +40,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: mintcream;
+    color: whitesmoke;
     height: 350px;
     border-radius: 4px;
     align-items: center;
@@ -55,7 +55,7 @@ a {
 .about h2 {
     display: flex;
     background-image: url(background2.jpeg);
-    color: mintcream;
+    color: whitesmoke;
     height: 100px;
     border-radius: 4px;
     align-items: center;
@@ -78,7 +78,7 @@ a {
 .services h3 {
     display: flex;
     background-image: url(background2.jpeg);
-    color: mintcream;
+    color: whitesmoke;
     height: 100px;
     border-radius: 4px;
     align-items: center;
@@ -104,7 +104,7 @@ a {
 .contact h4 {
     display: flex;
     background-image: url(background2.jpeg);
-    color: mintcream;
+    color:whitesmoke;
     height: 100px;
     border-radius: 4px;
     align-items: center;
@@ -257,7 +257,7 @@ figure {
 .moreinfo h6 {
     display: flex;
     background-image: url(background2.jpeg);
-    color: mintcream;
+    color: whitesmoke;
     height: 100px;
     border-radius: 4px;
     align-items: center;
