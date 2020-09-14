@@ -1,0 +1,1 @@
+link to github pages https://ryd0g.github.io/SinglePageSite/
