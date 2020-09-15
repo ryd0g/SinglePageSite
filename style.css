@@ -134,6 +134,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 4px;
 }
 .cardbox {
     display: flex;
@@ -144,7 +145,7 @@ img {
     transition: 0.3s;
     width: 30%;
     border-style: solid;
-    border-color: slategray;
+    border-color: gray;
     border-radius: 5px;
     display: inline-block;
     align-content: center;
@@ -182,16 +183,13 @@ h5 {
     padding: 12px 18px;
     border: 1px solid slategray;
     border-radius: 8px;
-    background: rgb(214, 214, 214);
-    background: -webkit-gradient(linear, left top, left bottom, from(mintcream), to(rgb(237, 255, 246)));
-    background: -moz-linear-gradient(top, #a8a8a8, #cecece);
-    background: linear-gradient(to bottom, #a8a8a8, #cecece);
+    background-image: url(images/background2.jpeg);
     -webkit-box-shadow: rgb(170, 170, 170) 0px 0px 40px 0px;
     -moz-box-shadow: rgb(247, 247, 247) 0px 0px 40px 0px;
     box-shadow: rgb(226, 226, 226) 0px 0px 40px 0px;
     text-shadow: rgb(231, 231, 231) 1px 1px 1px;
     font: normal normal normal 20px Helvetica;
-    color: slategray;
+    color: whitesmoke;
     font-family: Helvetica;
     text-decoration: none;
 }
@@ -245,7 +243,7 @@ h5 {
     background: linear-gradient(to bottom, #a8a8a8, #cecece);
 }
 figure {
-    border:3px solid slategray;
+    border:3px solid gray;
     width: min-content;
     margin: auto;
     align-items: center;
