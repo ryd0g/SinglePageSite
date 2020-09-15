@@ -266,6 +266,7 @@ figure {
     font-size: 2em;
     text-align: center;
     text-decoration: underline;
+    margin: 40px 0 40px 0;
 }
 .moreinfo p {
     font-family: Helvetica;
